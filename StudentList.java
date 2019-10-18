@@ -13,10 +13,11 @@ public class StudentList
 		else if(args[0].equals("a")) {
 			System.out.println("Loading data ...");			
 			try {
-			BufferedReader s = new BufferedReader(
+			BufferedReader FileStream = new BufferedReader(
 					new InputStreamReader(
 							new FileInputStream("students.txt"))); 
-			String r = s.readLine();
+			String r = 					BufferedReader FileStream = new BufferedReader(					BufferedReader FileStream = new BufferedReader(
+					.readLine();
 			String i[] = r.split(",");			
 			for(String j : i) { System.out.println(j); }
 			} catch (Exception e){} 
